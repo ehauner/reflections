@@ -1,1 +1,10 @@
 Initializing a repository creates a .git file in the directory and the log has zero commits
+
+git init
+git add
+git status
+staging area
+working directory
+
+staging area is a buffer space where files are added before being commited to the repository
+the working directory is the directory where the files in the repositry are located
