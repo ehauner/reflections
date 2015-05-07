@@ -8,3 +8,23 @@ working directory
 
 staging area is a buffer space where files are added before being commited to the repository
 the working directory is the directory where the files in the repositry are located
+
+Use the staging area to have one commit per logical change by commiting only those files that are different from the file in the repository (?)
+
+Branches = labels for commits
+
+Merging = combining 2 commits
+
+git branch
+
+Adding new branches helps when you want to create a new mode of the game, experiment with a new functionality, etc without irreversibly breaking the original file. Whenever fixing a new bug or adding a new feature.
+
+git branch new_branch_name
+git checkout new_branch_name
+
+Both above can be accomplised together:
+git checkout -b new_branch_name
+
+Branch diagrams help us see how the commits are related and how/if they are reachable from each other
+
+Merging two branches together chains all the commits together
